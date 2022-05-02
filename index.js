@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const express = require('express');
 const expressSession = require("express-session");
 const app = express();
@@ -24,7 +23,6 @@ app.use('/api',require('./routers/route'))
 app.listen(3000, () => {
   console.log('server is running on Port 3000');
 })
-=======
 const express = require('express');
 const expressSession = require("express-session");
 const app = express();
@@ -50,4 +48,3 @@ app.use('/api',require('./routers/route'))
 app.listen(3000, () => {
   console.log('server is running on Port 3000');
 })
->>>>>>> 4d3acc7379925808a7fdf2c53b279b16e846718e
