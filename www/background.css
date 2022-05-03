@@ -1,5 +1,9 @@
 body {
-  
+  height: auto ;
+  width: 100vw;
   background-image: url("BG.jpg");
   font-family: 'Noto Sans Cham';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
