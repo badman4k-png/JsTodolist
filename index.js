@@ -18,8 +18,9 @@ app.use(expressSession({
   saveUninitialized: true,
   cookie: { }
 })); 
+app.use('./api', require('./routers/route'))
 app.use(express.static(__dirname + '/www'));
-app.use('/api',require('./routers/route'))
+
 app.listen(3000, () => {
-  console.log('server is running on Port 3000');
+  console.log('server is running');
 })
